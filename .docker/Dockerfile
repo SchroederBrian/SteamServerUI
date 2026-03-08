@@ -59,6 +59,6 @@ RUN chmod +x /opt/SSUIBuildFiles/SteamServerUI
 RUN chmod +x /entrypoint.sh
 
 
-EXPOSE 8443/tcp 27016/udp 27015/udp
+EXPOSE 4545/tcp 17016/udp 17015/udp
 
 ENTRYPOINT ["/entrypoint.sh"]
